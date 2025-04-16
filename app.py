@@ -7,7 +7,7 @@ st.set_page_config(page_title="University Dashboard", layout="wide")
 st.title("🎓 University Data Dashboard")
 
 # ---- DATABASE CONNECTION ---- #
-connection_string = "postgresql://postgres:[YOUR-PASSWORD]@db.wflynxobpzhvylqdkupe.supabase.co:5432/postgres?sslmode=require"
+connection_string = "postgresql://postgres:Shishir25@db.wflynxobpzhvylqdkupe.supabase.co:5432/postgres?sslmode=require"
 
 def get_connection():
     return psycopg2.connect(connection_string)
