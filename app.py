@@ -7,7 +7,7 @@ st.set_page_config(page_title="University Dashboard", layout="wide")
 st.title("🎓 University Data Dashboard")
 
 # ---- DATABASE CONNECTION ---- #
-connection_string = ("postgresql://neondb_owner:npg_29nVFEUzhJkS@ep-red-mouse-a4kj0xwr-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require")
+connection_string = ("postgresql://postgres:qIdAyOCVXIgRLqardOxoyanvYGNcraiY@shuttle.proxy.rlwy.net:37607/railway")
 
 def get_connection():
     return psycopg2.connect(connection_string)
